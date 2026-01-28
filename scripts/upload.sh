@@ -24,7 +24,7 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Default API URL (can be overridden)
-API_URL="${CONSTELLATION_API_URL:-https://api.ubitquityx.com}"
+API_URL="${CONSTELLATION_API_URL:-https://ubitquityx.com/IPFS_Constellation/api}"
 
 print_usage() {
     echo "IPFS Constellation Upload Script"
