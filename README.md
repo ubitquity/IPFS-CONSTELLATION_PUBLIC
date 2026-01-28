@@ -4,9 +4,33 @@
 
 Transform isolated IPFS nodes into a unified, resilient fleet. Constellation orchestrates your data pinset with military-grade redundancy and automated healing.
 
+## Quick Start - Upload Now!
+
+**Ready-to-use upload scripts are available in the [`scripts/`](scripts/) directory:**
+
+```bash
+# Bash
+./scripts/upload.sh myfile.txt
+
+# Node.js (requires: npm install ipfs-http-client)
+node scripts/upload.js myfile.txt
+
+# Python (requires: pip install requests)
+python scripts/upload.py myfile.txt
+```
+
+Set your API endpoint:
+```bash
+export CONSTELLATION_API_URL="https://api.ubitquityx.com"
+export CONSTELLATION_API_KEY="your-api-key"  # if required
+```
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
+- [Quick Start](#quick-start---upload-now)
 - [Node Uploading](#node-uploading)
   - [JavaScript/TypeScript](#javascripttypescript)
   - [Python](#python)
@@ -351,6 +375,15 @@ ufw enable
 - [Developer Integration Guide](docs/IPFS_Constellation_Developer_Integration_Guide.pdf)
 - [Deployment Guide](docs/IPFS_Constellation_Deployment_Guide.pdf)
 - [Whitepaper](whitepaper/IPFS_Constellation_Whitepaper_v_1_0.pdf)
+- [Monetization Strategy & Pricing](MONETIZATION_STRATEGY.md)
+
+### Upload Scripts
+
+Ready-to-use scripts for uploading content:
+
+- [Bash Script](scripts/upload.sh) - For shell/CI/CD pipelines
+- [Node.js Script](scripts/upload.js) - For JavaScript environments
+- [Python Script](scripts/upload.py) - For Python environments
 
 ### Live Public Nodes
 
