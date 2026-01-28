@@ -197,7 +197,7 @@ Examples:
 
     parser.add_argument('path', help='File or directory to upload')
     parser.add_argument('-u', '--url',
-                        default=os.environ.get('CONSTELLATION_API_URL', 'https://api.ubitquityx.com'),
+                        default=os.environ.get('CONSTELLATION_API_URL', 'https://ubitquityx.com/IPFS_Constellation/api'),
                         help='API endpoint URL')
     parser.add_argument('-k', '--key',
                         default=os.environ.get('CONSTELLATION_API_KEY', ''),

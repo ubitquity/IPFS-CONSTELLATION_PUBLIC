@@ -31,7 +31,7 @@ try {
 
 // Configuration
 const config = {
-    apiUrl: process.env.CONSTELLATION_API_URL || 'https://api.ubitquityx.com',
+    apiUrl: process.env.CONSTELLATION_API_URL || 'https://ubitquityx.com/IPFS_Constellation/api',
     apiKey: process.env.CONSTELLATION_API_KEY || '',
     username: process.env.CONSTELLATION_USERNAME || '',
     password: process.env.CONSTELLATION_PASSWORD || ''

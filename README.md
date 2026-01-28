@@ -21,7 +21,7 @@ python scripts/upload.py myfile.txt
 
 Set your API endpoint:
 ```bash
-export CONSTELLATION_API_URL="https://api.ubitquityx.com"
+export CONSTELLATION_API_URL="https://ubitquityx.com/IPFS_Constellation/api"
 export CONSTELLATION_API_KEY="your-api-key"  # if required
 ```
 
